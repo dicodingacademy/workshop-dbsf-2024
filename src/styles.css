@@ -83,7 +83,10 @@ body {
   transition: color 0.4s;
 }
 
-/* *** Define your completed todo style here *** */
+.todo-item.completed .todo-item__title {
+  color: #949494;
+  text-decoration: line-through;
+}
 
 .todo-item .toggle {
   width: 30px;
